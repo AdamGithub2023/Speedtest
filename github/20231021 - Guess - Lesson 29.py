@@ -1,6 +1,7 @@
 import flet as ft
 from random import randint
 
+a = 0
 def main(page:ft.Page):
     page.title = "Guess the number"
     answer = randint(1, 100)
